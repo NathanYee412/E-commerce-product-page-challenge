@@ -1,0 +1,43 @@
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 5rem;
+}
+
+.navElements {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navOptions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navOptions li {
+    display: inline;
+    font-size: larger;
+    padding: 7% 7%;
+}
+
+li:hover {
+    border-bottom: 3px solid orange;
+}
+
+.line {
+    margin-top: 12px;
+}
+
+.cart {
+    float: right;
+}
+
+.avatar { 
+    float: right;
+}
