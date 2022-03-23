@@ -1,4 +1,6 @@
 import './NavBar.css'
+import cartIcon from '../img/icon-cart.svg';
+import avatar from '../img/image-avatar.png';
 
 export default function NavBar() {
 
@@ -20,10 +22,10 @@ export default function NavBar() {
                 </div>
             </div>
             <div className='navElements cart'>
-                <p>Cart</p>
+                <img src={cartIcon} alt="cart icon" />
             </div>
             <div className='navElements avatar'>
-                <p>Avatar</p>
+                <img src={avatar} alt="avatar" />
             </div>
             <hr></hr>
         </div>

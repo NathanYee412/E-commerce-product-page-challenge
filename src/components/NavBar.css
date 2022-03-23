@@ -59,3 +59,12 @@ li:hover {
 .avatar { 
     float: right;
 }
+
+@media  screen and (max-width: 950px) {
+    ul {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+}
