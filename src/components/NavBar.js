@@ -9,13 +9,15 @@ export default function NavBar() {
                 <h1 className='logo'>sneakers</h1>
             </div>
             <div className='navElements'>
-                <ul className='navOptions'>
-                    <li>Collections</li>
-                    <li>Men</li>
-                    <li>Women</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div className='options'>
+                    <ul className='navOptions'>
+                        <li>Collections</li>
+                        <li>Men</li>
+                        <li>Women</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </div>
             <div className='navElements cart'>
                 <p>Cart</p>
@@ -23,7 +25,7 @@ export default function NavBar() {
             <div className='navElements avatar'>
                 <p>Avatar</p>
             </div>
-            <hr className='line' />    
+            <hr></hr>
         </div>
     );
 }

@@ -1,12 +1,21 @@
+hr {
+    background-color: #f1f0f3;
+}
+
 .logo {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     margin: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 5%;
 }
 
 .navbar {
     background-color: #ffffff;
     height: 5rem;
+    padding: 0 10%;
+    height: 125px;
 }
 
 .navElements {
@@ -18,12 +27,21 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 14px;
+}
+
+.navOptions ul {
+    padding-left: 100px;
 }
 
 .navOptions li {
     display: inline;
     font-size: larger;
-    padding: 7% 7%;
+    padding: 18.5% 7%;
+}
+
+.options {
+    padding-left: 15%;
 }
 
 li:hover {
