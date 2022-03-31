@@ -1,0 +1,20 @@
+.container {
+    background-color: gray;
+    columns: 2;
+    display: flex;
+}
+
+.col {
+    margin: 0 auto;
+    background-color: brown;
+    
+}
+
+.productdetails { 
+    background-color: red;
+}
+
+.product1 {
+    height: 200px;
+    width: 200px;
+}
