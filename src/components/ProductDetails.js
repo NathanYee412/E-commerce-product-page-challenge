@@ -1,6 +1,7 @@
 import './ProductDetails.css'
 import product1 from '../img/image-product-1.jpg'
 
+// git test
 function ProductDetails(props) {
 
     return(
