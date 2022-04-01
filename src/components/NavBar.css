@@ -40,6 +40,12 @@ hr {
     padding: 18.5% 7%;
 }
 
+.avatar {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
 .options {
     padding-left: 15%;
 }
@@ -52,13 +58,6 @@ li:hover {
     margin-top: 12px;
 }
 
-.cart {
-    float: right;
-}
-
-.avatar { 
-    float: right;
-}
 
 @media  screen and (max-width: 950px) {
     ul {
