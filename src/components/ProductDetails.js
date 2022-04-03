@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './ProductDetails.css'
 import product1 from '../img/image-product-1.jpg'
 import product2 from '../img/image-product-2.jpg'
@@ -20,21 +20,40 @@ function ProductDetails(props) {
         product4
     ];
 
-    function handleClick() {
-        let temp = count;
-        if(temp === 3) {
-            setCount(0);
+    function handleClick(input) {
+        if(!input){
+            let temp = count;
+            if(temp === 3) {
+                setCount(0);
+            }
+            else {
+                setCount(temp += 1);
+            }
         }
+
         else {
-            setCount(temp += 1);
+            setCount(input);
         }
+            
     }
+
 
     return(
         <div className="container">
             <div className="col">
                 <img src={imgs[count]} className='product1' />
                 <button onClick={handleClick}>Next</button>
+                <div className='container'>
+                    <div className='col'>
+                        <img src={product2} alt='product2' className='miniProduct' onClick={handleClick} />
+                    </div>
+                    <div className='col'>
+                        <img src={product3} alt='product3' className='miniProduct' />
+                    </div>
+                    <div className='col'>
+                        <img src={product4} alt='product4' className='miniProduct' />
+                    </div>
+                </div>
             </div>
             <div className="col">
                 <div className='productdetails'>

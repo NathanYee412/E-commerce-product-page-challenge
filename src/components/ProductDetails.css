@@ -6,7 +6,8 @@
 
 .col {
     margin: 0 auto;
-    background-color: brown;
+    background-color: green;
+    width: 50%;
     
 }
 
@@ -17,4 +18,9 @@
 .product1 {
     height: 25%;
     width: auto;
+}
+
+.miniProduct {
+    height: 100px;
+    width: 100px;
 }
