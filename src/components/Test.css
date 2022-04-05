@@ -1,13 +1,25 @@
-.container {
-    columns: 2;
+.product {
     display: flex;
+    padding: 5% 10%;
 }
 
 .info {
+    flex: 50%;
+    padding: 3%;
+}
 
+.productimages {
+    width: 50%;
 }
 
 .mainimg {
-    height: 25%;
+    max-height: 530px;
     width: auto;
+    border-radius: 5%;
+}
+
+.subimg {
+    height: auto;
+    width: 33%;
+    border-radius: 5%;
 }

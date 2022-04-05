@@ -11,7 +11,12 @@ function Test(props) {
         <div className='product'>
             <div className='info'>
                 <div className="productimages">
-                    <img src={product1} alt='product image' className='mainimg'/>
+                    <img src={product1} alt='product' className='mainimg'/>
+                </div>
+                <div className='subimages'>
+                    <img src={product2} alt='product2' className='subimg'/>
+                    <img src={product3} alt='product3' className='subimg'/>
+                    <img src={product4} alt='product4' className='subimg'/>
                 </div>
             </div>
             <div className='info'>
