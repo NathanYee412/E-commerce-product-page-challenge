@@ -1,0 +1,13 @@
+.container {
+    columns: 2;
+    display: flex;
+}
+
+.info {
+
+}
+
+.mainimg {
+    height: 25%;
+    width: auto;
+}

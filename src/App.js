@@ -1,12 +1,13 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import ProductDetails from './components/ProductDetails';
+import Test from './components/Test';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <ProductDetails />
+      {/* <ProductDetails price="125.00" discount="50" discountedprice="250.00"/> */}
+      <Test price="125.00" discount="50" discountedprice="250.00"/>
     </div>
   );
 }
