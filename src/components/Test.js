@@ -14,6 +14,7 @@ function Test(props) {
                     <img src={product1} alt='product' className='mainimg'/>
                 </div>
                 <div className='subimages'>
+                    <img src={product1} alt='product1' className='subimg'/>
                     <img src={product2} alt='product2' className='subimg'/>
                     <img src={product3} alt='product3' className='subimg'/>
                     <img src={product4} alt='product4' className='subimg'/>
