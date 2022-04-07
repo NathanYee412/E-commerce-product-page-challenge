@@ -1,16 +1,19 @@
+
+
+/* Container */
 .product {
     display: flex;
     padding: 5% 10%;
 }
 
+/* Columns */
 .info {
     flex: 50%;
-    padding: 3%;
+    padding: 5%;
 }
 
-.productimages {
-    width: 100%
-}
+
+/* Left side Product images */
 
 .mainimg {
     max-width: 100%;
@@ -29,5 +32,32 @@
 .subimg {
     max-width: 20%;
     max-height: 20%;
+    border-radius: 15%;
+}
+
+/* Right side product details  */
+h3 {
+    color: #de782e;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+.pricediscount {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.discountpercent {
+    background-color: #f9f0e7;
+    padding: 0 10px;
+    margin-left: 20px;
     border-radius: 15%;
 }

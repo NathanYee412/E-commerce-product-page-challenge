@@ -22,14 +22,16 @@ function Test(props) {
             </div>
             <div className='info'>
                 <div className='productdetails'>
-                        <h2>SNEAKER COMPANY</h2>
+                        <h3>SNEAKER COMPANY</h3>
                         <h1>Fall Limited Sneakers</h1>
                         <p>
                             Theses low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
                         </p>
-                        <h2>{props.price}</h2>
-                        <div>
-                            <h3>{props.discount}</h3>
+                        <div className='pricediscount'>
+                            <h2>${props.price}</h2>
+                            <div className='discountpercent'>
+                                <h3>{props.discount}%</h3>
+                            </div>
                         </div>
                         <h3>{props.discountedprice}</h3>
                     </div>
