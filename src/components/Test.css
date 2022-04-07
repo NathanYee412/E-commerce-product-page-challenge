@@ -13,13 +13,14 @@
 }
 
 .mainimg {
-    max-height: 530px;
+    max-height: 475px;
     width: auto;
     border-radius: 5%;
 }
 
 .subimg {
     height: auto;
-    width: 33%;
-    border-radius: 5%;
+    width: 25%;
+    border-radius: 10%;
+    margin: 4%;
 }
