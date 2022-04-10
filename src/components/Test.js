@@ -4,6 +4,8 @@ import product1 from '../img/image-product-1.jpg';
 import product2 from '../img/image-product-2.jpg';
 import product3 from '../img/image-product-3.jpg';
 import product4 from '../img/image-product-4.jpg';
+import cartIcon from '../img/icon-cart.svg';
+
 
 function Test(props) {
 
@@ -68,6 +70,7 @@ function Test(props) {
                             <button onClick={increaseCount} className='countbutton'>+</button>
                         </div>
                         <div className='addtocart'>
+                            <img src={cartIcon} alt='cart icon'/>
                             <button >Add to cart</button>
                         </div>
                     </div>
