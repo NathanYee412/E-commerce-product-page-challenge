@@ -21,10 +21,10 @@ export default function NavBar() {
                     </ul>
                 </div>
             </div>
-            <div className='navElements'>
+            <div className='user'>
                 <img src={avatar} alt="avatar" className='avatar' />
             </div>
-            <div className='navElements'>
+            <div className='user'>
                 <img src={cartIcon} alt="cart icon" />
             </div>
             

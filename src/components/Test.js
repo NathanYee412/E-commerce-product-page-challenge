@@ -62,10 +62,13 @@ function Test(props) {
                     </div>
                     <h3>{props.discountedprice}</h3>
                     <div className='quantity'>
-                        <div>
+                        <div className='adjuster'>
                             <button onClick={decreaseCount}>-</button>
                             <p>{count}</p>
                             <button onClick={increaseCount}>+</button>
+                        </div>
+                        <div>
+                            <button>Add to cart</button>
                         </div>
                     </div>
                 </div>

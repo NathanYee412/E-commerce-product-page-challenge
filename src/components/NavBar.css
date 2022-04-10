@@ -58,6 +58,14 @@ li:hover {
     margin-top: 12px;
 }
 
+.user {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media  screen and (max-width: 950px) {
     ul {
         display: none;
