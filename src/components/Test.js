@@ -5,7 +5,8 @@ import product2 from '../img/image-product-2.jpg';
 import product3 from '../img/image-product-3.jpg';
 import product4 from '../img/image-product-4.jpg';
 import cartIcon from '../img/icon-cart.svg';
-
+import next from '../img/icon-next.svg';
+import prev from '../img/icon-previous.svg';
 
 function Test(props) {
 
@@ -78,9 +79,13 @@ function Test(props) {
                         <div className='lightbox'>
                             <button onClick={() => mainImgClick()} className='exit'>x</button>
                             <div className='lightbox'>
-                                <button onClick={() => prevImage()}>&lt;</button>
-                                <img src={imageToShow} alt='product' className='lightboximg'/>
-                                <button onClick={() => nextImage()}>&gt;</button>
+                                <div className='lightboxcontrols'>
+                                    <img onClick={() => prevImage()} src={prev} alt='prev' />
+                                </div>
+                                    <img src={imageToShow} alt='product' className='lightboximg'/>
+                                <div className='lightboxcontrols'>
+                                    <img onClick={() => nextImage()} src={next} alt='next' />
+                                </div>
                             </div>
                         </div>
                     </div>

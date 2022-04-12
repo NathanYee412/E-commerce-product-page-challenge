@@ -108,9 +108,9 @@ p {
 /* Lightbox image */
 
 .lightboximg {
+    max-width: 70%;
+    max-height: 70%;
     border-radius: 5%;
-    height: 40%;
-    width: auto;
 }
 
 .lightbox {
@@ -128,5 +128,20 @@ p {
 
 
 .exit {
-    display: grid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    padding: 5% 5%;
+    color: white;
+    font-size: 3rem;
+}
+
+.lightboxcontrols {
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
 }
