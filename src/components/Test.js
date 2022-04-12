@@ -43,16 +43,45 @@ function Test(props) {
         setImageToShow(imgs[0]);
     }
 
+    function prevImage() {
+        let temp = count;
+
+        if(temp === 0) {
+            temp = imgs.length;
+        }
+        
+        temp = temp - 1;
+
+        setCount(temp);
+        setImageToShow(imgs[temp]);
+    }
+
+    function nextImage() {
+        let temp = count;
+
+
+        if(temp === imgs.length - 1) {
+            temp = -1;
+        }
+        
+        temp = temp + 1;
+
+        setCount(temp);
+        setImageToShow(imgs[temp]);
+    }
+
     return(
         <div className='product'>
             <div>
                 { lightboxDisplay ?
                     <div>
-                        <button onClick={() => mainImgClick()}>x</button>
                         <div className='lightbox'>
-                            <button onClick={() => mainImgClick()}>left</button>
-                            <img src={imageToShow} alt='product' className='lightboximg'/>
-                            <button>right</button>
+                            <button onClick={() => mainImgClick()} className='exit'>x</button>
+                            <div className='lightbox'>
+                                <button onClick={() => prevImage()}>&lt;</button>
+                                <img src={imageToShow} alt='product' className='lightboximg'/>
+                                <button onClick={() => nextImage()}>&gt;</button>
+                            </div>
                         </div>
                     </div>
                     
