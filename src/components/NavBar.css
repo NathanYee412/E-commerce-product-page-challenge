@@ -1,5 +1,6 @@
-hr {
-    background-color: #f1f0f3;
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .logo {
@@ -12,62 +13,37 @@ hr {
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
     background-color: #ffffff;
     height: 5rem;
     padding: 0 10%;
     height: 125px;
 }
 
-.navElements {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.navOptions {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
-
-.navOptions ul {
-    padding-left: 100px;
-}
-
-.navOptions li {
-    display: inline;
-    font-size: larger;
-    padding: 18.5% 7%;
-}
-
-.avatar {
-    height: 50px;
-    width: 50px;
-    float: right;
-}
-
-.options {
-    padding-left: 15%;
-}
-
-li:hover {
-    border-bottom: 3px solid orange;
-}
-
-.line {
-    margin-top: 12px;
+.items {
+    padding: 0 3%;
 }
 
 .user {
     display: flex;
-    float: right;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
 
+.avatar {
+    height: 50px;
+    width: auto;
+}
+
+.cart {
+    height: 30px;
+    width: auto;
 }
 
 @media  screen and (max-width: 950px) {
-    ul {
+    .items {
         display: none;
     }
     hr {

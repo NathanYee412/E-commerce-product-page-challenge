@@ -10,25 +10,29 @@ export default function NavBar() {
             <div className='navElements'>
                 <h1 className='logo'>sneakers</h1>
             </div>
-            <div className='navElements'>
-                <div className='options'>
-                    <ul className='navOptions'>
-                        <li>Collections</li>
-                        <li>Men</li>
-                        <li>Women</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
+            <div className='items'>
+                <a href='/'>Collections</a>
+            </div>
+            <div className='items'>
+                <a href='/'>Men</a>
+            </div>
+            <div className='items'>
+                <a href='/'>Women</a>
+            </div>
+            <div className='items'>
+                <a href='/'>About</a>
+            </div>
+            <div className='items'>
+                <a href='/'>Contact</a>
+            </div>
+            <div className='user'>
+                <div>
+                    <img src={cartIcon} alt="cart icon" className='cart' />
                 </div>
-            </div>
-            <div className='user'>
-                <img src={avatar} alt="avatar" className='avatar' />
-            </div>
-            <div className='user'>
-                <img src={cartIcon} alt="cart icon" />
-            </div>
-            
-            <hr></hr>
+                <div>
+                    <img src={avatar} alt="avatar" className='avatar' />
+                </div>
+            </div>    
         </div>
     );
 }
