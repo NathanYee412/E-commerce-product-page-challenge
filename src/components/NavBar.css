@@ -17,12 +17,16 @@ a {
     align-items: center;
     background-color: #ffffff;
     height: 5rem;
-    padding: 0 10%;
+    padding: 0 13%;
     height: 125px;
 }
 
 .items {
     padding: 0 3%;
+}
+
+.navbar:hover {
+    border-bottom: 3px solid #ff7d1b;
 }
 
 .user {
