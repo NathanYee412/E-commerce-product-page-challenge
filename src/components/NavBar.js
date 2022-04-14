@@ -7,10 +7,10 @@ export default function NavBar() {
 
     return(
         <div className='navbar'>
-            <div className='navElements'>
+            <div>
                 <h1 className='logo'>sneakers</h1>
             </div>
-            <div className='items'>
+            <div className='items first'>
                 <a href='/'>Collections</a>
             </div>
             <div className='items'>
@@ -32,7 +32,7 @@ export default function NavBar() {
                 <div>
                     <img src={avatar} alt="avatar" className='avatar' />
                 </div>
-            </div>    
+            </div>
         </div>
     );
 }

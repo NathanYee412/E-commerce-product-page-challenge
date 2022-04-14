@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <hr></hr>
       {/* <ProductDetails price="125.00" discount="50" discountedprice="250.00"/> */}
       <Test price="125.00" discount="50" discountedprice="250.00"/>
     </div>

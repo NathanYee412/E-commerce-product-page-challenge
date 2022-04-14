@@ -45,6 +45,10 @@ button, input[type="submit"], input[type="reset"] {
     border-radius: 15%;
 }
 
+.subimg:hover {
+    border: 5px solid #de782e;
+}
+
 /* Right side product details  */
 h3 {
     color: #ff7d1b;
@@ -52,11 +56,12 @@ h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 p {
-    line-height: 1.8rem;
+    line-height: 2.3rem;
+    font-size: 1.3rem;
 }
 
 .pricediscount {
@@ -70,6 +75,12 @@ p {
     padding: 0 10px;
     margin-left: 20px;
     border-radius: 15%;
+}
+
+.discountedprice {
+    color: black;
+    text-decoration: line-through;
+    color: #c7c8ca;
 }
 
 .quantity {
@@ -103,6 +114,16 @@ p {
     width: 100%;
     padding: 0 20px;
 }
+
+.carticon {
+    color: white;
+}
+
+.cart {
+    color: white;
+    font-size: 1.3rem;
+}
+
 
 
 /* Lightbox image */

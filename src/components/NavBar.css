@@ -4,12 +4,11 @@ a {
 }
 
 .logo {
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: 700;
     margin: 0;
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-right: 5%;
 }
 
 .navbar {
@@ -17,16 +16,13 @@ a {
     align-items: center;
     background-color: #ffffff;
     height: 5rem;
-    padding: 0 13%;
+    padding: 1% 13%;
     height: 125px;
 }
 
 .items {
     padding: 0 3%;
-}
-
-.navbar:hover {
-    border-bottom: 3px solid #ff7d1b;
+    font-size: 1.2rem;
 }
 
 .user {
@@ -37,13 +33,14 @@ a {
 }
 
 .avatar {
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 
 .cart {
     height: 30px;
     width: auto;
+    padding-right: 60px;
 }
 
 @media  screen and (max-width: 950px) {

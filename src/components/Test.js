@@ -106,7 +106,7 @@ function Test(props) {
             <div className='info'>
                 <div className='productdetails'>
                     <h3>SNEAKER COMPANY</h3>
-                    <h1>Fall Limited Sneakers</h1>
+                    <h1>Fall Limited Edition Sneakers</h1>
                     <p>
                         Theses low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
                     </p>
@@ -116,7 +116,7 @@ function Test(props) {
                             <h3>{props.discount}%</h3>
                         </div>
                     </div>
-                    <h3>{props.discountedprice}</h3>
+                    <h3 className='discountedprice'>{props.discountedprice}</h3>
                     <div className='quantity'>
                         <div className='adjuster'>
                             <button onClick={decreaseCount} className='countbutton'>-</button>
@@ -124,8 +124,8 @@ function Test(props) {
                             <button onClick={increaseCount} className='countbutton'>+</button>
                         </div>
                         <div className='addtocart'>
-                            <img src={cartIcon} alt='cart icon'/>
-                            <button >Add to cart</button>
+                            <img src={cartIcon} alt='cart icon' className='carticon'/>
+                            <button className='cart'>Add to cart</button>
                         </div>
                     </div>
                 </div>
